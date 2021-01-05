@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="1" name="com.interactions.automation.interactions.AssignmentTaskAPITest" time="8.366" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.242-b08"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="AdoptOpenJDK"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/dpraharaj/dkpLatestWorkspace/interactions"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/dpraharaj/dkpLatestWorkspace/interactions"/>
+    <property name="java.runtime.version" value="1.8.0_242-b08"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/nl/9f28sj7x6zd1bfwr97pwpxn40000gp/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Users/dpraharaj/dkpLatestWorkspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf4361573098139181924.tmp"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/dpraharaj/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.13.6"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/dpraharaj"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="dpraharaj"/>
+    <property name="java.class.path" value="/Users/dpraharaj/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_1.11.0.20190220-2117/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean install -U"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_242"/>
+    <property name="java.ext.dirs" value="/Users/dpraharaj/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="AdoptOpenJDK"/>
+    <property name="maven.home" value="/Users/dpraharaj/dkpLatestWorkspace/interactions/EMBEDDED"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="com.interactions.automation.interactions.AssignmentTaskAPITest" name="testComplexParsingJsonResponse" time="8.366">
+    <failure message="No signature of method: java.util.HashMap.list() is applicable for argument types: (java.lang.Integer) values: [0]
+Possible solutions: is(java.lang.Object), wait(), size(), size(), sort(), find()" type="java.lang.IllegalArgumentException">java.lang.IllegalArgumentException: No signature of method: java.util.HashMap.list() is applicable for argument types: (java.lang.Integer) values: [0]
+Possible solutions: is(java.lang.Object), wait(), size(), size(), sort(), find()
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:80)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:105)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:60)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:235)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:255)
+	at com.jayway.restassured.internal.path.json.JSONAssertion.getAsJsonObject(JSONAssertion.groovy:53)
+	at com.jayway.restassured.internal.path.json.JSONAssertion$getAsJsonObject.callCurrent(Unknown Source)
+	at com.jayway.restassured.internal.path.json.JSONAssertion.getResult(JSONAssertion.groovy:28)
+	at com.jayway.restassured.path.json.JsonPath.get(JsonPath.java:202)
+	at com.jayway.restassured.path.json.JsonPath.getDouble(JsonPath.java:315)
+	at com.interactions.automation.interactions.AssignmentTaskAPITest.testComplexParsingJsonResponse(AssignmentTaskAPITest.java:72)
+Caused by: groovy.lang.MissingMethodException: No signature of method: java.util.HashMap.list() is applicable for argument types: (java.lang.Integer) values: [0]
+Possible solutions: is(java.lang.Object), wait(), size(), size(), sort(), find()
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.unwrap(ScriptBytecodeAdapter.java:58)
+	at org.codehaus.groovy.runtime.callsite.PojoMetaClassSite.call(PojoMetaClassSite.java:49)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1.run(Script1.groovy:1)
+	at groovy.lang.GroovyShell.evaluate(GroovyShell.java:591)
+	at groovy.lang.GroovyShell.evaluate(GroovyShell.java:629)
+	at groovy.lang.GroovyShell.evaluate(GroovyShell.java:600)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrap.invoke(PogoMetaMethodSite.java:190)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.call(PogoMetaMethodSite.java:71)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at com.jayway.restassured.internal.path.json.JSONAssertion.eval(JSONAssertion.groovy:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+	at com.jayway.restassured.internal.path.json.JSONAssertion.getAsJsonObject(JSONAssertion.groovy:46)
+	... 39 more
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@7b1d7fff
+Getting API for : https://samples.openweathermap.org?q=London,UK&amp;appid=b1b15e 88fa797225412429c1c50c122a1
+Request method:	GET
+Request path:	https://samples.openweathermap.org/data/2.5/history/city?q=London%2CUK&amp;appid=b1b1%205%20e88fa797225412429c1c50c122a1
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	q=London,UK
+				appid=b1b1 5 e88fa797225412429c1c50c122a1
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Headers:		Accept=*/*
+Cookies:		&lt;none&gt;
+Body:			&lt;none&gt;
+HTTP/1.1 200 OK
+Server: openresty/1.9.7.1
+Date: Tue, 05 Jan 2021 06:52:47 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+ETag: W/&quot;a05a608676943f92506d1d6efab3d72e&quot;
+Cache-Control: max-age=0, private, must-revalidate
+X-Request-Id: 28d65ad1-a4c1-4420-9a0a-16aca7023e92
+X-Runtime: 0.001089
+Content-Encoding: gzip
+
+{
+    &quot;message&quot;: &quot;&quot;,
+    &quot;cod&quot;: &quot;200&quot;,
+    &quot;city_id&quot;: 2643743,
+    &quot;calctime&quot;: 0.0875,
+    &quot;cnt&quot;: 3,
+    &quot;list&quot;: [
+        {
+            &quot;main&quot;: {
+                &quot;temp&quot;: 279.946,
+                &quot;temp_min&quot;: 279.946,
+                &quot;temp_max&quot;: 279.946,
+                &quot;pressure&quot;: 1016.76,
+                &quot;sea_level&quot;: 1024.45,
+                &quot;grnd_level&quot;: 1016.76,
+                &quot;humidity&quot;: 100
+            },
+            &quot;wind&quot;: {
+                &quot;speed&quot;: 4.59,
+                &quot;deg&quot;: 163.001
+            },
+            &quot;clouds&quot;: {
+                &quot;all&quot;: 92
+            },
+            &quot;weather&quot;: [
+                {
+                    &quot;id&quot;: 500,
+                    &quot;main&quot;: &quot;Rain&quot;,
+                    &quot;description&quot;: &quot;light rain&quot;,
+                    &quot;icon&quot;: &quot;10n&quot;
+                }
+            ],
+            &quot;rain&quot;: {
+                &quot;3h&quot;: 2.69
+            },
+            &quot;dt&quot;: 1485717216
+        },
+        {
+            &quot;main&quot;: {
+                &quot;temp&quot;: 282.597,
+                &quot;temp_min&quot;: 282.597,
+                &quot;temp_max&quot;: 282.597,
+                &quot;pressure&quot;: 1012.12,
+                &quot;sea_level&quot;: 1019.71,
+                &quot;grnd_level&quot;: 1012.12,
+                &quot;humidity&quot;: 98
+            },
+            &quot;wind&quot;: {
+                &quot;speed&quot;: 4.04,
+                &quot;deg&quot;: 226
+            },
+            &quot;clouds&quot;: {
+                &quot;all&quot;: 92
+            },
+            &quot;weather&quot;: [
+                {
+                    &quot;id&quot;: 500,
+                    &quot;main&quot;: &quot;Rain&quot;,
+                    &quot;description&quot;: &quot;light rain&quot;,
+                    &quot;icon&quot;: &quot;10n&quot;
+                }
+            ],
+            &quot;rain&quot;: {
+                &quot;3h&quot;: 0.405
+            },
+            &quot;dt&quot;: 1485745061
+        },
+        {
+            &quot;main&quot;: {
+                &quot;temp&quot;: 279.38,
+                &quot;pressure&quot;: 1011,
+                &quot;humidity&quot;: 93,
+                &quot;temp_min&quot;: 278.15,
+                &quot;temp_max&quot;: 280.15
+            },
+            &quot;wind&quot;: {
+                &quot;speed&quot;: 2.6,
+                &quot;deg&quot;: 30
+            },
+            &quot;clouds&quot;: {
+                &quot;all&quot;: 90
+            },
+            &quot;weather&quot;: [
+                {
+                    &quot;id&quot;: 701,
+                    &quot;main&quot;: &quot;Mist&quot;,
+                    &quot;description&quot;: &quot;mist&quot;,
+                    &quot;icon&quot;: &quot;50d&quot;
+                },
+                {
+                    &quot;id&quot;: 741,
+                    &quot;main&quot;: &quot;Fog&quot;,
+                    &quot;description&quot;: &quot;fog&quot;,
+                    &quot;icon&quot;: &quot;50d&quot;
+                }
+            ],
+            &quot;dt&quot;: 1485768552
+        }
+    ]
+}
+The Response of the API : {&quot;message&quot;:&quot;&quot;,&quot;cod&quot;:&quot;200&quot;,&quot;city_id&quot;:2643743,&quot;calctime&quot;:0.0875,&quot;cnt&quot;:3,&quot;list&quot;:[{&quot;main&quot;:{&quot;temp&quot;:279.946,&quot;temp_min&quot;:279.946,&quot;temp_max&quot;:279.946,&quot;pressure&quot;:1016.76,&quot;sea_level&quot;:1024.45,&quot;grnd_level&quot;:1016.76,&quot;humidity&quot;:100},&quot;wind&quot;:{&quot;speed&quot;:4.59,&quot;deg&quot;:163.001},&quot;clouds&quot;:{&quot;all&quot;:92},&quot;weather&quot;:[{&quot;id&quot;:500,&quot;main&quot;:&quot;Rain&quot;,&quot;description&quot;:&quot;light rain&quot;,&quot;icon&quot;:&quot;10n&quot;}],&quot;rain&quot;:{&quot;3h&quot;:2.69},&quot;dt&quot;:1485717216},{&quot;main&quot;:{&quot;temp&quot;:282.597,&quot;temp_min&quot;:282.597,&quot;temp_max&quot;:282.597,&quot;pressure&quot;:1012.12,&quot;sea_level&quot;:1019.71,&quot;grnd_level&quot;:1012.12,&quot;humidity&quot;:98},&quot;wind&quot;:{&quot;speed&quot;:4.04,&quot;deg&quot;:226},&quot;clouds&quot;:{&quot;all&quot;:92},&quot;weather&quot;:[{&quot;id&quot;:500,&quot;main&quot;:&quot;Rain&quot;,&quot;description&quot;:&quot;light rain&quot;,&quot;icon&quot;:&quot;10n&quot;}],&quot;rain&quot;:{&quot;3h&quot;:0.405},&quot;dt&quot;:1485745061},{&quot;main&quot;:{&quot;temp&quot;:279.38,&quot;pressure&quot;:1011,&quot;humidity&quot;:93,&quot;temp_min&quot;:278.15,&quot;temp_max&quot;:280.15},&quot;wind&quot;:{&quot;speed&quot;:2.6,&quot;deg&quot;:30},&quot;clouds&quot;:{&quot;all&quot;:90},&quot;weather&quot;:[{&quot;id&quot;:701,&quot;main&quot;:&quot;Mist&quot;,&quot;description&quot;:&quot;mist&quot;,&quot;icon&quot;:&quot;50d&quot;},{&quot;id&quot;:741,&quot;main&quot;:&quot;Fog&quot;,&quot;description&quot;:&quot;fog&quot;,&quot;icon&quot;:&quot;50d&quot;}],&quot;dt&quot;:1485768552}]}
+The Response of the API : {&quot;message&quot;:&quot;&quot;,&quot;cod&quot;:&quot;200&quot;,&quot;city_id&quot;:2643743,&quot;calctime&quot;:0.0875,&quot;cnt&quot;:3,&quot;list&quot;:[{&quot;main&quot;:{&quot;temp&quot;:279.946,&quot;temp_min&quot;:279.946,&quot;temp_max&quot;:279.946,&quot;pressure&quot;:1016.76,&quot;sea_level&quot;:1024.45,&quot;grnd_level&quot;:1016.76,&quot;humidity&quot;:100},&quot;wind&quot;:{&quot;speed&quot;:4.59,&quot;deg&quot;:163.001},&quot;clouds&quot;:{&quot;all&quot;:92},&quot;weather&quot;:[{&quot;id&quot;:500,&quot;main&quot;:&quot;Rain&quot;,&quot;description&quot;:&quot;light rain&quot;,&quot;icon&quot;:&quot;10n&quot;}],&quot;rain&quot;:{&quot;3h&quot;:2.69},&quot;dt&quot;:1485717216},{&quot;main&quot;:{&quot;temp&quot;:282.597,&quot;temp_min&quot;:282.597,&quot;temp_max&quot;:282.597,&quot;pressure&quot;:1012.12,&quot;sea_level&quot;:1019.71,&quot;grnd_level&quot;:1012.12,&quot;humidity&quot;:98},&quot;wind&quot;:{&quot;speed&quot;:4.04,&quot;deg&quot;:226},&quot;clouds&quot;:{&quot;all&quot;:92},&quot;weather&quot;:[{&quot;id&quot;:500,&quot;main&quot;:&quot;Rain&quot;,&quot;description&quot;:&quot;light rain&quot;,&quot;icon&quot;:&quot;10n&quot;}],&quot;rain&quot;:{&quot;3h&quot;:0.405},&quot;dt&quot;:1485745061},{&quot;main&quot;:{&quot;temp&quot;:279.38,&quot;pressure&quot;:1011,&quot;humidity&quot;:93,&quot;temp_min&quot;:278.15,&quot;temp_max&quot;:280.15},&quot;wind&quot;:{&quot;speed&quot;:2.6,&quot;deg&quot;:30},&quot;clouds&quot;:{&quot;all&quot;:90},&quot;weather&quot;:[{&quot;id&quot;:701,&quot;main&quot;:&quot;Mist&quot;,&quot;description&quot;:&quot;mist&quot;,&quot;icon&quot;:&quot;50d&quot;},{&quot;id&quot;:741,&quot;main&quot;:&quot;Fog&quot;,&quot;description&quot;:&quot;fog&quot;,&quot;icon&quot;:&quot;50d&quot;}],&quot;dt&quot;:1485768552}]}
+</system-out>
+  </testcase>
+</testsuite>
